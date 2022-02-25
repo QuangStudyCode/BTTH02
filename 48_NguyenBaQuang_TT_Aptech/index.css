@@ -35,6 +35,7 @@
     background-color: #cccc;
     padding-right: 72px;
     position: relative;
+    
 }
 
 .nav-item{
@@ -46,7 +47,7 @@
 
 .nav-item>li>a{
     font-family: 'Archivo', sans-serif !important;
-    line-height: 19.5px;
+    line-height: 19.5px;z-index: inherit !important;
 }
 
 
@@ -63,6 +64,9 @@
     width: max-content;
     border-radius: 0;
     cursor: pointer;
+    z-index: 1;
+    opacity: 1;
+    
 }
 
 /* css for word nav-item */
@@ -127,4 +131,111 @@
 .carousel-control-next {
     right: -81px;
     opacity: 5 !important;
+}
+
+
+/* css for placehoder */
+.row img{
+    height: 228px;
+    width: 305px;
+}
+
+.text{
+    font-family: 'Archivo', sans-serif !important;
+    margin-top: 80px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.text h1{
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;font-weight: 600;
+}
+.text h3{
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;font-weight: 600;
+}
+
+.placehoder-sub {
+    width: 1200px;
+    height: 570px;
+    margin-bottom: 42px;
+    
+}
+
+.col-md-4 {
+    width: 343px;
+    height: 422px;
+    border: 1px solid #E1E0E0;
+    margin-right: 40px;
+    text-align: center;
+}
+.row{
+    padding-left: 50px;
+}
+
+
+/* css for content 3 */
+
+.content-3{
+    height: 1000px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000D75 0%, #65379A 100%);
+   
+}
+
+.content-sub{
+    
+    top:200px;
+}
+/* .content-sub>form{
+    width: 500px;
+    height: 600px;
+} */
+
+.content-sub .col>img{
+    width: 513px;
+    height: 580px;
+
+}
+
+/* .form {
+    width: 500px;
+    height: 600px;
+} */
+form {
+    width: 500px;
+    height: 600px;
+}
+.form-label{
+    color: white;
+}
+
+h1.card-title {
+    color: white;
+    font-size: 27px;
+    
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.card-title{
+    color: yellow;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #F5EC10;
+}
+
+button.btn.btn-primary {
+    color: black;
+    background-color: orange;
+    width: 100%;
+}
+
+.sub-form-label{
+    padding: 40px;
 }

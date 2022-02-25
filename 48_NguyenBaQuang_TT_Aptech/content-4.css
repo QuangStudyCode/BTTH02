@@ -1,0 +1,30 @@
+.content-4{
+    height: 408px;
+    text-align: center;
+    display: table-cell;
+}
+
+.content-4>div{
+    margin-top: 130px;
+}
+
+.content-4 h1{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.content-4 h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content-4 i{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-button-content-4{
+    color: white !important;
+    background-color: green !important;
+}
