@@ -2,6 +2,7 @@
     height: 408px;
     text-align: center;
     display: table-cell;
+    width: 100%;
 }
 
 .content-4>div{
@@ -27,4 +28,12 @@
 .sub-button-content-4{
     color: white !important;
     background-color: green !important;
+}
+
+.sub-button-content-4:hover{
+    background-color: yellow;
+}
+
+.btn-group .sub-button-content-4:hover{
+    background-color: yellow;
 }
