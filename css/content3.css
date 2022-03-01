@@ -1,0 +1,16 @@
+.content-3.container-fluid {
+    background: linear-gradient(#000D75, #65379A);
+    height: 1300px;
+}
+
+h1.h1.border.border-3.border-warning.text-warning.mx-auto {
+    text-align: center;
+}
+
+h2.h2.text-white {
+    text-align: center;
+}
+
+.button.btn.btn-primary.mt-5.bg-warning.text-body.w-100:hover {
+    background-color: green;
+}

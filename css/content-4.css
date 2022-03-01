@@ -1,0 +1,15 @@
+button.btn.btn-success.align-middle {
+    margin-left: 30%;
+    font-weight: 700;
+}
+
+button.btn.btn-success.align-middle:hover {
+    background-color: orange;
+}
+
+
+.content-4.container-fluid.py-5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* padding-top: 20px; */
+}
